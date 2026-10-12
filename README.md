@@ -1,25 +1,21 @@
-# Yeonju Kim — Research Portfolio
+# Yeonju Kim · Ice Bear Portfolio
 
-Block-log의 sidebar / main-content / module 구조를 바탕으로 구성한 Jekyll 포트폴리오입니다.
+김연주의 의료영상 AI·주파수 특징·양자정보 연구 포트폴리오입니다.
 
-## 구성
+Original theme: [Ice Bear by Song Kong](https://github.com/songkong/Blog/tree/gh-pages), MIT, copyright (c) 2016 Song Kong. See THEME-LICENSE.txt.
 
-- `index.html`: 연구 흐름, 프로젝트 카드, 성과, 증빙, 진로 계획
-- `about.html`: 수정한 자기소개 전문
-- `assets/evidence/`: 원본 자료에서 발췌한 공개용 이미지
-- `_includes/`, `_layouts/`: Block-log의 구조를 수정한 템플릿
-- `assets/main.css`: 반응형·접근성·인쇄 스타일
+Ice Bear의 상단 메뉴, 하늘색 배너와 북극곰 SVG, About / Blog / Projects section topology, 세로 타임라인과 물결 푸터를 사용했습니다. 콘텐츠는 포트폴리오에 맞게 바꾸고 폰트, 여백, 모바일 메뉴, 증빙 확대, 반응형 스타일을 수정했습니다.
 
-## GitHub Pages
+## Content
+- index.html / _includes/: 요약, 연구, 진로 흐름, 논문·활동, 증빙
+- about.html: 자기소개 전문
+- research/: 연구 상세 페이지
+- assets/evidence/: 원본 자료의 공개용 발췌
+- assets/images/ice-bear.svg: 원본 테마의 북극곰 SVG를 수정한 배너
+- assets/js/ice-bear.js: 모바일 메뉴와 증빙 확대
 
-`KimYeonJuu/KimYeonJuu.github.io`의 `main` 브랜치 루트에 파일을 넣고 Settings → Pages → Deploy from a branch → main / (root)를 선택합니다.
+Typeface: SUIT, SIL Open Font License (assets/fonts/OFL.txt).
 
-로컬 확인: `bundle install` 이후 `bundle exec jekyll serve`.
+GitHub Pages: main / (root). 로컬 실행: bundle install; bundle exec jekyll serve.
 
-## Credits
-
-Original template: [Block-log](https://github.com/anandubajith/block-log), Copyright (c) 2015 Anandu B Ajith, MIT. See `THEME-LICENSE.txt`.
-
-Typeface: [SUIT](https://github.com/sun-typeface/SUIT), SIL Open Font License. See `assets/fonts/OFL.txt`.
-
-내용 기준일: 2026.10.08. 게재 승인은 게재 완료와 구분하며 양자 연구는 진행 중입니다.
+기록 기준일 2026.10.08 / 디자인 수정 2026.10.12. 논문 상태는 게재 승인과 게재 완료를 구분하고 양자 연구는 진행 중으로 표시했습니다.

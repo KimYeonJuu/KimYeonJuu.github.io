@@ -1,11 +1,9 @@
 title: "김연주 | Quantum Information × AI"
-description: "의료영상 AI에서 양자·고전 하이브리드 연구로"
+description: "의료영상 AI에서 양자정보 연구로"
 url: "https://kimyeonjuu.github.io"
 baseurl: ""
 author: "Yeonju Kim"
-github: "KimYeonJuu"
-email: "yeonjuk8@gmail.com"
 lang: ko
 timezone: Asia/Seoul
 markdown: kramdown
-exclude: [Gemfile, Gemfile.lock, README.md, THEME-LICENSE.txt, SOURCES.json]
+exclude: [Gemfile, Gemfile.lock, README.md, THEME-LICENSE.txt]
