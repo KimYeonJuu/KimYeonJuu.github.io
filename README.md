@@ -1,28 +1,22 @@
-# Yeonju Kim · Ice Bear Portfolio
+# Yeonju Kim · Research Portfolio
 
-김연주의 의료영상 AI·주파수 특징·양자정보 연구 포트폴리오입니다.
+Live: https://kimyeonjuu.github.io/
 
-Original theme: [Ice Bear by Song Kong](https://github.com/songkong/Blog/tree/gh-pages), MIT, copyright (c) 2016 Song Kong. See THEME-LICENSE.txt.
+김연주의 양자정보·AI 연구 포트폴리오입니다. Ice Bear의 하늘색과 북극곰을 바탕으로 구성했습니다.
 
-Ice Bear의 상단 메뉴, 하늘색 배너와 북극곰 SVG, About / Blog / Projects section topology, 세로 타임라인과 물결 푸터를 사용했습니다. 콘텐츠는 포트폴리오에 맞게 바꾸고 폰트, 여백, 모바일 메뉴, 증빙 확대, 반응형 스타일을 수정했습니다.
+## Pages
+- `index.html`: 짧은 소개, 대표 연구 4개, 진로 흐름과 상세 페이지 링크
+- `cv.html`: 학력, 연구경력, 연구과제, 논문, 수상, 기술
+- `journey.html`: 역량을 쌓은 과정과 진로 계획
+- `evidence.html`: 논문·수상·활동 증빙 이미지
+- `about.html`: 연구 이야기
+- `research/`: 각 연구의 방법, 기여, 실험 결과와 증빙
 
-## Content
-- index.html / _includes/: 요약, 연구, 진로 흐름, 논문·활동, 증빙
-- about.html: 자기소개 전문
-- research/: 연구 상세 페이지
-- assets/evidence/: 원본 자료의 공개용 발췌
-- assets/images/ice-bear.svg: 원본 테마의 북극곰 SVG를 수정한 배너
-- assets/js/ice-bear.js: 모바일 메뉴와 증빙 확대
+## Maintenance
+GitHub Pages: main / (root). Local: `bundle install`, then `bundle exec jekyll serve`.
 
-Typeface: SUIT, SIL Open Font License (assets/fonts/OFL.txt).
+논문은 2026.09 게재 승인 상태로 기록하고 공동 기여 표기를 함께 명시했습니다. JCR Top 6.6%는 2025 Engineering, Electrical & Electronic의 JIF percentile 93.4 기준입니다. 양자 연구는 진행 중입니다.
 
-GitHub Pages: main / (root). 로컬 실행: bundle install; bundle exec jekyll serve.
+Theme artwork: [Ice Bear by Song Kong](https://github.com/songkong/Blog/tree/gh-pages), MIT © 2016 Song Kong. See THEME-LICENSE.txt. Typeface: SUIT, SIL Open Font License.
 
-기록 기준일 2026.10.08 / 디자인 수정 2026.10.12. 논문 상태는 게재 승인과 게재 완료를 구분하고 양자 연구는 진행 중으로 표시했습니다.
-
-## Research-first revision (2026.10.12)
-- 첫 화면: 연구 정체성, Pattern Recognition SCIE 제1저자 게재 승인, JCR/IF 기준, 현재 소속.
-- 연구 목록: 그림, 한 줄 설명, 역할/결과, 논문/코드/증빙 직접 링크.
-- JCR Top 6.6%: 2025 Engineering, Electrical & Electronic의 JIF percentile 93.4 기준. 단순 순위 비율이나 AI 분야 순위로 쓰지 않습니다.
-- 수상 이력과 자료 연결 참고: [oMFDOo](https://github.com/oMFDOo/oMFDOo), [CBNU 공개 수상자 목록](https://github.com/kimhy365/CBNU_IndAI).
-- 연구 목록의 정보 배치 참고: [Jon Barron](https://jonbarron.info/). 사용자 제공 devfolio 화면의 간결한 위계를 반영했습니다. 참조 사이트의 코드나 이미지는 복제하지 않았습니다.
+2026.10.16: 홈 요약·상세 페이지 분리, GitHub 프로필을 CV 형식으로 정리, 설명 문장 축약.

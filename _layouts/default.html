@@ -1,1 +1,10 @@
-<!DOCTYPE html><html lang="ko">{% include head.html %}<body><a class="skip-link" href="#main">본문으로 이동</a><div class="main-wrapper">{% include header.html %}{% if page.home %}{% include banner.html %}{% endif %}<main id="main">{{ content }}</main>{% include footer.html %}</div></body></html>
+<!DOCTYPE html>
+<html lang="ko">
+{% include head.html %}
+<body>
+<a class="skip-link" href="#main">본문으로 이동</a>
+{% include header.html %}
+<main id="main">{{ content }}</main>
+{% include footer.html %}
+</body>
+</html>
