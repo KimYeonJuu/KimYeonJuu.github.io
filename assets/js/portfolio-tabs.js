@@ -26,6 +26,7 @@
       tab.setAttribute('aria-selected', String(selected));
       tab.tabIndex = selected ? 0 : -1;
       tab.classList.toggle('is-active', selected);
+      tab.closest('.btn')?.classList.toggle('on', selected);
     });
     panels.forEach(panel => { panel.hidden = panel.dataset.panel !== name; });
     document.title = `${name === 'project' ? 'Project' : name === 'contact' ? 'Contact' : 'About Me'} · 김연주`;

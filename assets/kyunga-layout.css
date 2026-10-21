@@ -1,0 +1,440 @@
+/* Adapted from Kyung-A/2020ver-portfolio/style.css. See DESIGN-CREDITS.md. */
+@charset "utf-8";
+
+body,
+html {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  flex: 1px;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  width: 100%;
+}
+
+header .mainText {
+  width: 100%;
+  height: 300px;
+  background-image: none;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 85px 0px;
+  box-sizing: border-box;
+}
+
+header .mainText strong {
+  font-family: "Passion One", cursive;
+  color: #fff;
+  font-size: 2em;
+  font-style: italic;
+}
+
+header .slide {
+  width: 240px;
+  position: relative;
+  font-family: "SUIT", sans-serif;
+  color: #fff;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 1.4em;
+}
+
+header .mainText ul.textSlide {
+  position: relative;
+  width: 100%;
+}
+
+header .slide .textSlide li {
+  font-weight: 700;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 25px;
+  animation: animatetop 2s;
+  -ms-animation: animatetop 2s;
+}
+
+@keyframes animatetop {
+  0% {
+    top: -30px;
+    opacity: 0;
+  }
+  100% {
+    top: 0px;
+    opacity: 1;
+  }
+}
+
+header .mainText p {
+  text-align: right;
+  line-height: 25px;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+header nav {
+  width: 100%;
+  border-top: 1px solid #dbdbdb;
+  border-bottom: 1px solid #dbdbdb;
+  box-sizing: border-box;
+}
+
+header nav .gnb {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex: 1;
+  font-family: "Passion One", cursive;
+  font-style: italic;
+  box-sizing: border-box;
+}
+
+header nav .gnb a {
+  text-decoration: none;
+}
+
+header nav .gnb li.btn a {
+  font-size: 2.3rem;
+  padding: 13px 0px;
+  cursor: pointer;
+  color: rgb(179, 179, 179);
+  box-sizing: border-box;
+  display: block;
+}
+
+header nav .gnb li.on a {
+  color: rgb(65, 65, 65);
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.wrapper section {
+  width: 100%;
+  padding: 50px 20px;
+  flex: 1px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: none;
+}
+
+.wrapper section#about {
+  display: block;
+}
+
+.wrapper section#about .who h1 {
+  font-family: "Passion One", cursive;
+  font-style: italic;
+  font-size: 2rem;
+  color: rgb(223, 36, 230);
+}
+
+.wrapper section#about .who .me {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex: 1;
+  flex-wrap: wrap;
+  padding: 50px 0px;
+}
+
+.wrapper section#about .who .me .meImg {
+  padding: 20px 0px;
+  box-sizing: border-box;
+}
+
+.wrapper section#about .who .me .meText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 560px;
+}
+
+.wrapper section#about .who .me .meText .meTextImg {
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+}
+
+.wrapper section#about .who .me .meText .meTextImg img {
+  width: 100%;
+}
+
+.wrapper section#about .who .me .meText p {
+  margin-top: 20px;
+  font-family: "SUIT", sans-serif;
+  font-size: 1rem;
+  line-height: 25px;
+}
+
+.wrapper section#about .who .me .meText p span {
+  font-size: 0.8em;
+  color: rgb(138, 138, 138);
+}
+
+.wrapper section#about .who .skills {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.wrapper section#about .who .skills > div {
+  width: 100%;
+  border-top: 1px solid rgb(145, 145, 145);
+  position: relative;
+}
+
+.wrapper section#about .who .skills h5 {
+  font-family: "SUIT", sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 3px;
+  position: absolute;
+  width: 100px;
+  background-color: #fff;
+  top: -10px;
+  font-weight: 700;
+  color: rgb(73, 73, 73);
+}
+
+.wrapper section#about .who .skills .skillsImg {
+  width: 90%;
+  margin: 0 auto;
+  padding: 50px 0px;
+  display: grid;
+  grid-gap: 35px;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  grid-template-rows: repeat(2, 120px);
+  display: -ms-flexbox;
+  -ms-flex-item-align: start;
+  -ms-flex-pack: justify;
+  -ms-flex-wrap: wrap;
+}
+
+.wrapper section#about .who .skills .backSkill .skillsImg {
+  grid-template-rows: repeat(1, 120px);
+}
+
+.wrapper section#about .who .skills .skillsImg > div {
+  width: 80px;
+  margin: 0 auto;
+}
+
+.wrapper section#about .who .skills .skillsImg > div > span {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  border-radius: 80px;
+  overflow: hidden;
+}
+
+.wrapper section#about .who .skills .skillsImg > div > p {
+  font-size: 1em;
+  margin: 10px 0px;
+  text-align: center;
+  font-family: "SUIT", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+
+/* 탭메뉴 프로젝트 스크린 */
+.wrapper section#project {
+  width: 100%;
+}
+
+.wrapper section#project .gridWrap {
+  display: grid;
+  grid-gap: 35px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: repeat(1, 300px);
+}
+
+/* 블로그 */
+.wrapper section#project .blog-wrap {
+  width: 100%;
+  margin-top: 100px;
+  border-top: 1px solid #c7c7c7;
+  position: relative;
+}
+
+.wrapper section#project .blog-wrap h5 {
+  font-family: "SUIT", sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 3px;
+  position: absolute;
+  width: 230px;
+  background-color: #fff;
+  top: -10px;
+  font-weight: 700;
+  color: rgb(73, 73, 73);
+}
+
+.wrapper section#project .blog-wrap .blog-grid {
+  margin-top: 50px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-rows: repeat(2, 250px);
+}
+
+.wrapper section#project .blog-wrap .blog-grid > a {
+  border: 1px solid #c7c7c7;
+  border-radius: 8px;
+  width: 100%;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.wrapper section#project .blog-wrap .blog-grid > a:hover {
+  transform: translate(0px, -10px);
+  box-shadow: 0px 10px 20px 0px rgba(53, 53, 53, 0.158);
+}
+
+.wrapper section#project .blog-wrap .blog-grid > a > .blog-img {
+  width: 100%;
+  height: 150px;
+  border-bottom: 1px solid #c7c7c7;
+}
+
+.wrapper section#project .blog-wrap .blog-grid > a > .blog-txt {
+  font-family: "SUIT", sans-serif;
+  padding: 20px 20px;
+  box-sizing: border-box;
+}
+
+.wrapper section#project .blog-wrap .blog-grid > a > .blog-txt > h3 {
+  color: rgb(70, 70, 70);
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.wrapper section#project .blog-wrap .blog-grid > a > .blog-txt > span {
+  color: rgb(155, 155, 155);
+  font-size: 0.8rem;
+}
+
+
+/* 연락처 */
+.wrapper section#contact .contactWrap {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+  box-sizing: border-box;
+}
+
+.wrapper section#contact .contactWrap .contactImg {
+  width: 100%;
+  max-width: 350px;
+  margin-top: 35px;
+  transition: all 0.3s ease;
+}
+
+.wrapper section#contact .contactWrap .contactImg img {
+  width: 100%;
+}
+
+.wrapper section#contact .contactWrap .contactImg:hover {
+  transform: translate(15px, 0px);
+}
+
+.wrapper section#contact .contactWrap .mail {
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 400px;
+}
+
+.wrapper section#contact .contactWrap .mail h1 {
+  font-family: "Passion One", cursive;
+  font-style: italic;
+  font-size: 2rem;
+  color: rgb(255, 189, 46);
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.wrapper section#contact .contactWrap .mail .mailLink {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 40px;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+}
+
+.wrapper section#contact .contactWrap .mail .mailLink > a {
+  text-decoration: none;
+  color: rgb(71, 71, 71);
+  font-family: "Passion One", cursive;
+  font-style: italic;
+  font-size: 1.5rem;
+  word-break: break-all;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.wrapper section#contact .contactWrap .mail .mailLink > i {
+  font-size: 2rem;
+  margin-right: 15px;
+}
+
+.wrapper section#contact .contactWrap .mail span {
+  font-family: "SUIT", sans-serif;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  padding: 20px 10px;
+  color: #8a8a8a;
+  box-sizing: border-box;
+  font-size: 0.9rem;
+  line-height: 20px;
+}
+
+footer {
+  width: 100%;
+}
+
+footer span {
+  width: 100%;
+  color: rgb(190, 190, 190);
+  font-family: "SUIT", sans-serif;
+  font-size: 0.8rem;
+  text-align: center;
+  display: inline-block;
+  padding: 30px 0px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapper section#project .block:hover {
+    transform: none;
+    box-shadow: none;
+  }
+  .wrapper section#contact .contactWrap .contactImg:hover {
+    transform: none;
+  }
+}

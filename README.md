@@ -2,7 +2,7 @@
 
 Live: https://kimyeonjuu.github.io/
 
-김연주의 양자정보·AI 연구 포트폴리오입니다. 홈은 Kyung-A의 2020 포트폴리오를 참고한 사진 배너와 세 개의 탭으로 구성했습니다. 기존 연구·CV·증빙 상세 페이지는 Ice Bear 디자인을 유지합니다.
+김연주의 양자정보·AI 연구 포트폴리오입니다. 홈은 Kyung-A의 2020 포트폴리오 HTML/CSS를 바탕으로 구성했습니다. 양자 회로 배너와 세 개의 탭, 간결한 소개·기술 목록, 대표 프로젝트 2개와 활동 카드 6개를 배치했습니다. 기존 연구·CV·증빙 상세 페이지는 Ice Bear 디자인을 유지합니다.
 
 ## Pages
 - `index.html`: `#project` 연구 카드·상세 팝업, `#about` 소개·기술·진로 흐름, `#contact` 연락처
@@ -23,6 +23,10 @@ GitHub Pages: main / (root). Local: `bundle install`, then `bundle exec jekyll s
 
 Theme artwork: [Ice Bear by Song Kong](https://github.com/songkong/Blog/tree/gh-pages), MIT © 2016 Song Kong. See THEME-LICENSE.txt. Typeface: SUIT, SIL Open Font License.
 
-Home layout reference: [Kyung-A / 2020ver-portfolio](https://github.com/Kyung-A/2020ver-portfolio). Code and content are independently implemented; the portrait belongs to Yeonju Kim. Skill icon credits: `assets/profile/ICON-CREDITS.md`.
+Home layout reference: [Kyung-A / 2020ver-portfolio](https://github.com/Kyung-A/2020ver-portfolio). Selected HTML/CSS structure is adapted from the reference; see `DESIGN-CREDITS.md`. The portrait and research content belong to Yeonju Kim. Skill icon credits: `assets/profile/ICON-CREDITS.md`.
 
 2026.10.16: 메뉴를 실제 탭으로 전환하고 연구 상세 팝업과 프로필 README의 탭 링크를 연결했습니다.
+
+2026.10.21: 원본의 Who/Skills, 2열 대표 프로젝트·3열 활동 기록, 사진·연락처 박스 구성을 적용했습니다. 증빙은 상세 팝업 안에서 펼쳐볼 수 있습니다.
+
+현재 프로젝트 화면: [미리보기](assets/preview/reference-project.jpg)
