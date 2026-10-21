@@ -113,7 +113,7 @@
   const phrase = document.querySelector('#banner-phrase');
   const pauseButton = document.querySelector('#rotation-toggle');
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
-  const phrases = ['양자정보와 AI를 연구하는', '의료영상의 주파수 특징을 다루는', '모델을 구현하고 결과를 검증하는'];
+  const phrases = ['양자정보와 AI를 연구하는', '흉부 X-ray 분류 모델을 만드는', '양자 회로와 AI를 함께 실험하는'];
   let phraseIndex = 0;
   let paused = false;
   let timer = null;
