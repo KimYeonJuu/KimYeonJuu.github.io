@@ -17,3 +17,52 @@
 @media(max-width:360px){.wrapper{padding-inline:20px}.intro-bear{right:20px;width:90px}.home-intro h1{font-size:36px}.home-intro h1 span{font-size:18px}.featured-main h3{font-size:21px}.featured-main h3 small{display:block;margin:4px 0 0}.featured-main .entry-arrow{font-size:19px}.footer-inner{display:block}.footer-links{margin-top:15px}.copyright{display:block;line-height:1.9}.copyright>*{display:block}.evidence-grid{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
 @media print{#header,#footer,.skip-link,.back,.menu-toggle{display:none}.wrapper{padding:0;max-width:none}.page-section{padding:0}.home-intro{padding:20px 0}.intro-bear{display:none}.home-section{padding:20px 0}.page-content{max-width:none}.page-section h1{font-size:28px}.page-section h2{font-size:19px;margin-top:25px}.page-section p{font-size:11px}.entry-row{padding:15px 0}.featured-paper,.cv-entry,.cv-publication,.journey-step,.evidence-item{break-inside:avoid}.cv-entry{grid-template-columns:110px 1fr}.page-section figure{max-height:400px}.page-section figure img{max-height:330px}.data-table{font-size:11px}}
+
+/* Larger type for the career roadmap and CV, preserving their existing structure. */
+@media screen {
+  #site-nav a { font-size:14px; }
+  .readable-page { font-size:16px; line-height:1.85; }
+  .readable-page .back { font-size:14px; }
+  .readable-page .eyebrow { font-size:13px; letter-spacing:.1em; }
+  .readable-page h1 { font-size:40px; }
+  .readable-page h2 { font-size:27px; }
+  .readable-page h3 { font-size:20px; line-height:1.55; }
+  .readable-page p { font-size:16px; line-height:1.85; }
+  .readable-page p.lead { font-size:19px; line-height:1.8; }
+  .readable-page .small, .readable-page p.small { font-size:14px; line-height:1.85; }
+  .readable-page .links { font-size:15px; }
+  .readable-page .name-english { font-size:26px; }
+  .readable-page figcaption { font-size:14px; }
+  .readable-page .data-table { font-size:15px; }
+  .readable-page .step-facts { font-size:16px; }
+  .readable-page .step-facts>div { grid-template-columns:120px 1fr; gap:20px; padding:7px 0; }
+  .readable-page .step-facts dt { font-size:14px; font-weight:600; }
+  .readable-page .journey-step h2 { font-size:27px; }
+  .readable-page .journey-step>a { font-size:15px; }
+  .readable-page.cv-page>h2 { font-size:24px; }
+  .readable-page .cv-entry { grid-template-columns:145px 1fr; gap:24px; }
+  .readable-page .cv-entry time { font-size:14px; line-height:1.8; }
+  .readable-page .cv-entry h3 { font-size:18px; }
+  .readable-page .cv-entry p, .readable-page .cv-publication p { font-size:16px; }
+  .readable-page .cv-entry p.small, .readable-page .cv-publication p.small { font-size:14px; }
+  .readable-page .cv-publication h3 { font-size:20px; line-height:1.6; }
+}
+@media screen and (max-width:640px) {
+  .readable-page { font-size:15px; }
+  .readable-page h1 { font-size:32px; }
+  .readable-page h2, .readable-page .journey-step h2 { font-size:24px; }
+  .readable-page h3 { font-size:18px; }
+  .readable-page p { font-size:15px; }
+  .readable-page p.lead { font-size:17px; }
+  .readable-page .name-english { font-size:23px; }
+  .readable-page .small, .readable-page p.small { font-size:13px; }
+  .readable-page .links { font-size:14px; }
+  .readable-page .step-facts { font-size:15px; }
+  .readable-page .step-facts>div { grid-template-columns:108px 1fr; gap:12px; font-size:15px; }
+  .readable-page.cv-page>h2 { font-size:22px; }
+  .readable-page .cv-entry { grid-template-columns:1fr; gap:6px; }
+  .readable-page .cv-entry h3 { font-size:17px; }
+  .readable-page .cv-entry p, .readable-page .cv-publication p { font-size:15px; }
+  .readable-page .cv-entry p.small, .readable-page .cv-publication p.small { font-size:13px; }
+  .readable-page .cv-publication h3 { font-size:18px; }
+}
