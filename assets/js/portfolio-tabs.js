@@ -29,7 +29,7 @@
       tab.closest('.btn')?.classList.toggle('on', selected);
     });
     panels.forEach(panel => { panel.hidden = panel.dataset.panel !== name; });
-    document.title = `${name === 'project' ? 'Project' : name === 'contact' ? 'Contact' : 'About Me'} · 김연주`;
+    document.title = `${name === 'project' ? 'Experience' : name === 'contact' ? 'Contact' : 'About Me'} · 김연주`;
     if (historyMode !== 'none' && location.hash !== `#${name}`) {
       const url = `${location.pathname}${location.search}#${name}`;
       history[historyMode === 'replace' ? 'replaceState' : 'pushState']({tab:name}, '', url);
