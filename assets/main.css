@@ -66,3 +66,7 @@
   .readable-page .cv-entry p.small, .readable-page .cv-publication p.small { font-size:13px; }
   .readable-page .cv-publication h3 { font-size:18px; }
 }
+
+/* Temporarily unavailable standalone pages retain their source for restoration. */
+.disabled-link{color:var(--muted);opacity:.6;cursor:not-allowed}
+#site-nav .disabled-link{font-size:14px}

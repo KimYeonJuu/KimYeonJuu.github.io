@@ -6,4 +6,4 @@ author: "Yeonju Kim"
 lang: ko
 timezone: Asia/Seoul
 markdown: kramdown
-exclude: [Gemfile, Gemfile.lock, README.md, THEME-LICENSE.txt]
+exclude: [Gemfile, Gemfile.lock, README.md, THEME-LICENSE.txt, journey.html, cv.html, evidence.html]
