@@ -30,3 +30,7 @@ header nav{background:#fff;border-color:#ededed}header nav .gnb{align-items:cent
 .history .roadmap-list p{max-width:760px}
 .history .roadmap-list>div:last-child{padding-bottom:0;border-left-color:transparent}
 @media(max-width:480px){.history{margin-top:38px}.history .roadmap-list h3{font-size:18px}.history .roadmap-list p{font-size:15px}}
+
+/* Main achievements sit between the introduction and Skills. */
+.main-achievements{margin-bottom:48px}.main-achievements .achievement-summary{border-top:0;margin-top:30px;padding-top:0}.achievement-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:20px}.main-achievements .author-note{font-size:13px;line-height:1.8;margin-top:14px;color:#666}.main-achievements .academic-line{font-size:17px;line-height:1.8;margin-top:12px;color:#666}.wrapper section#project .blog-wrap:first-child{margin-top:0}
+@media(max-width:480px){.main-achievements{margin-bottom:38px}.main-achievements .achievement-summary{margin-top:25px}.main-achievements .academic-line{font-size:16px}}
