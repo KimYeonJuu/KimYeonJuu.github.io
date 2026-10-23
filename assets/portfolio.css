@@ -39,3 +39,7 @@ header nav{background:#fff;border-color:#ededed}header nav .gnb{align-items:cent
 .main-achievements .card-cover{background:linear-gradient(115deg,#f2c59f 0%,#e6b3c4 48%,#c5b2df 100%);color:#49364c}.main-achievements .card-cover>span{color:#5c4a60}
 
 .project-card .blog-txt h3{word-break:keep-all;overflow-wrap:anywhere}
+
+/* Titles identify the work; publication and award metadata sits below. */
+.project-card .card-cover{height:auto;min-height:180px;padding:24px 28px;gap:12px}.project-card .card-cover strong{font-family:SUIT,sans-serif;font-size:23px;font-weight:750;line-height:1.45;letter-spacing:0;max-width:60ch;word-break:keep-all;overflow-wrap:anywhere}.main-achievements .card-cover{min-height:230px}.main-achievements .card-cover strong{font-size:21px}.project-card .blog-txt h3{font-size:16px;line-height:1.6}
+@media(max-width:480px){.project-card .card-cover{min-height:170px;padding:22px 18px}.project-card .card-cover strong{font-size:19px}.main-achievements .card-cover{min-height:200px}.main-achievements .card-cover strong{font-size:20px}}
